@@ -706,14 +706,14 @@ And lastly, the thing we love the most. You can find the ~~same~~ list of emojis
 
 As with many other platforms, the syntax for an emoji is \:emoji_name\:
 
-##### A **Table of Emojis** could be found [here](Emojis.md).
+#### A _Table of Emojis_ could be found [here](Emojis.md).
 
 ## The End.
 Congratulations! You've made it to the end.
 Now, if you're up to it, look at this page again but select the "raw" mode on GitHub (top-right corner)
 There are no easter eggs, but you'll get to see how this document is made, which will help solidify you accumulated knowledge on Markdown.
 
-####Bibliography
+## Bibliography
 
 HTML/Markdown syntax: [HTML]
 List of Emojis: [emojis]
