@@ -641,7 +641,7 @@ def foo(bar):
 print(foo('Bar'))
 ```
 Highlighted:
-```Python
+```python
 import math as m
 print('happy', str(m.pi), 'day')
 def foo(bar):
@@ -652,7 +652,7 @@ print(foo('Bar'))
 
 Code for highlighting code blocks:
 ````
-```Python
+```python
 import math as m
 print('happy', str(m.pi), 'day')
 def foo(bar):
@@ -662,7 +662,7 @@ print(foo('Bar'))
 ```
 ````
 
-Just replace `bash` with whatever language your code is in.
+Just replace `python` with whatever language your code is in.
 
 But remember, don't mis-stylize your code. I have seen this countless times, when people didn't bother separating their code from their comments/miscellaneous information, the the coloring scheme goes all wrong. That's worse than not having highlighting at all. So please, remember to format your code correctly when highlighting code blocks.
 
@@ -715,13 +715,13 @@ There are no easter eggs, but you'll get to see how this document is made, which
 
 ## Bibliography
 
-HTML/Markdown syntax: [HTML]
-List of Emojis: [emojis]
-GitHub/Markdown Emojis Categorization: [emojis_categorization]
-Horizontal Line Break (\<br>) tag: [br_tag]
+- HTML/Markdown syntax: [HTML]
+- List of Emojis: [emojis]
+- GitHub/Markdown Emojis Categorization: [emojis_categorization]
+- Horizontal Line Break (\<br>) tag: [br_tag]
 
 <!-- References -->
 [HTML]: https://daringfireball.net/projects/markdown/syntax
 [emojis]: https://www.webfx.com/tools/emoji-cheat-sheet/
-[emojis_categorization]: https://github.com/ikatyang/emoji-cheat-sheet
+[emojis_categorization]: https://github.com/ikatyang/emoji-cheat-sheet 
 [br_tag]: https://www.w3schools.com/tags/tag_br.asp
