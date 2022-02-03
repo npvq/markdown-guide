@@ -19,7 +19,7 @@ There are a few crucial things to know about Markdown.
 
 The first is that Markdown is a straightforward and powerful simplification of HTML. This means that some HTML attributes will apply to it.
 
-And it is important to remember, if you are using a raw editor to edit markdown (like I am), that leaving an empty line between two lines (of text or otherwise) will tell the implementation to wrap the text in \<p>\</p>.
+And it is important to remember, if you are using a raw editor to edit markdown, that leaving an empty line between two lines (of text or otherwise) will tell the implementation to wrap the text in \<p>\</p>.
 
 So if you don't want your text to be jumbled together, make sure to double space. It is also good for the code visually, in the rare event that it needs to be debugged (probably a forgotten escape, unclosed bracket, or "reused" conflicting reference). You can read more about HTML and Markdown [here][HTML].
 
@@ -591,12 +591,12 @@ You can refer to pull requests or issues with `#1` or `repository#1`/`repository
 
 Now, task lists are quite useful. But as much as you would like to tick them on the screen when you are looking at them to give yourself the gratification of ticking off a task, you must edit these task checkmarks in code. Here is an example task list.
 
-- [x] Write run.py
+- [x] Write `run.py`
 - [ ] Update libraries
 - [ ] Review pull requests
 
 ```
-- [x] Write run.py
+- [x] Write `run.py`
 - [ ] Update libraries
 - [ ] Review pull requests
 ```
@@ -619,7 +619,7 @@ You can space these lists out with newlines:
 - [x] Review pull requests
 ```
 
-As you can see, I have been really productive today. I finished those tasks while writing about task lists.
+Note that this is actually recognized as paragraph breaks and new instances of to-do lists are created.
 
 ### Code Highlighting:
 
@@ -702,7 +702,7 @@ Function: Breaks a line
 
 # Emojis
 
-And lastly, the thing we love the most. You can find the ~~same~~ list of emojis [here][emojis]. The categorization of emojis come from [itakyang's emoji-cheat-sheet][emojis_categorization]
+And lastly, the our favorite: a [list][emojis] of emojis! See also: [itakyang's emoji-cheat-sheet][emojis_categorization].
 
 As with many other platforms, the syntax for an emoji is \:emoji_name\:
 
@@ -711,14 +711,18 @@ As with many other platforms, the syntax for an emoji is \:emoji_name\:
 ## The End.
 Congratulations! You've made it to the end.
 Now, if you're up to it, look at this page again but select the "raw" mode on GitHub (top-right corner)
-There are no easter eggs, but you'll get to see how this document is made, which will help solidify you accumulated knowledge on Markdown.
+There are no easter eggs, but you'll get to see how this document is made, which will help solidify the knowledge you just accumulated regarding Markdown.
 
 ## Bibliography
 
 - HTML/Markdown syntax: [HTML]
 - List of Emojis: [emojis]
-- GitHub/Markdown Emojis Categorization: [emojis_categorization]
+- GitHub/Markdown Emojis Categorization (for `Emojis.md`): [emojis_categorization]
 - Horizontal Line Break (\<br>) tag: [br_tag]
+
+## Colophon
+
+This was typed up in `neovim` on `terminal.app` on mac. 
 
 <!-- References -->
 [HTML]: https://daringfireball.net/projects/markdown/syntax
